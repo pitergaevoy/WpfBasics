@@ -35,7 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>OMEGALUL.ico</ApplicationIcon>
+    <ApplicationIcon>BIGLUL.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -98,16 +98,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Camera.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="6844568_preview.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="lul-png-transparent-lul-png-image-free-download-pngkey-49195760.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="OMEGALUL.ico" />
+    <Resource Include="BIGLUL.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
