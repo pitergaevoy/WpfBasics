@@ -9,4 +9,4 @@ What you're gonna do now? Run? Stand still and pretend that you're not here at a
 
 Anyways I have a question for you. A serious one...it's haunting...terrifying.
 
-Whats heavier a kilogram of steel or a kilogram of feathers?<br>Right, a kilogram of steel, because still is heavier than feathers.<br>
+Whats heavier a kilogram of steel or a kilogram of feathers?<br>Right, a kilogram of steel, because steel is heavier than feathers.<br>
