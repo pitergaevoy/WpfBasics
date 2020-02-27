@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:WpfApp_TreeView_Learn"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+    <StackPanel>
+      <TreeView x:Name="FolderView">
+        
+      </TreeView>
+    </StackPanel>
 </Window>
