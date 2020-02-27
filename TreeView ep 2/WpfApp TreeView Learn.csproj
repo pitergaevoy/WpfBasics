@@ -5,6 +5,27 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>WpfApp_TreeView_Learn</RootNamespace>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>BIGLUL.ico</ApplicationIcon>
   </PropertyGroup>
+
+
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+    <None Update="Images\file.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\folder.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\folderO.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 
 </Project>
