@@ -8,6 +8,13 @@
     <ApplicationIcon>BIGLUL.ico</ApplicationIcon>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Images\drive.png" />
+    <None Remove="Images\file.png" />
+    <None Remove="Images\folder.png" />
+    <None Remove="Images\folderO.png" />
+  </ItemGroup>
+
 
 
   <ItemGroup>
@@ -17,15 +24,16 @@
 
 
   <ItemGroup>
-    <None Update="Images\file.png">
+    <Resource Include="Images\drive.png" />
+    <Resource Include="Images\file.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\folder.png">
+    </Resource>
+    <Resource Include="Images\folder.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\folderO.png">
+    </Resource>
+    <Resource Include="Images\folderO.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    </Resource>
   </ItemGroup>
 
 </Project>
