@@ -29,36 +29,7 @@ namespace WpfApp_TreeView_Learn
 
         #region OnLoaded
 
-        /// <summary>
-        /// When application first opens
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-            //Get every logical drive on machine
-            foreach (var drive in Directory.GetLogicalDrives())
-            {
-                //Create a new item for it
-                var item = new TreeViewItem()
-                {
-                    //Set the header
-                    Header = drive,
-                    //Add the full path
-                    Tag = drive
-                };
-
-                //Empty Item
-                item.Items.Add(null);
-
-                //Listen out for the item being expanded
-                item.Expanded += Folder_Expanded;
-
-                //Add it to the main tree-view
-                FolderView.Items.Add(item);
-            }
-        }
+  
         #endregion
 
         #region Folder Expanded
@@ -167,32 +138,7 @@ namespace WpfApp_TreeView_Learn
         }
         #endregion
 
-        #region Helpers
-        
-        /// <summary>
-        ///Find the file or folder name from full path
-        /// </summary>
-        public static string GetFileFolderName(string path)
-        {
-            //C:/something/a file.png
-
-            if (string.IsNullOrEmpty(path))
-                return string.Empty;
-
-            //Make all slashes into back-slashes
-            var normalizedPath = path.Replace('/', '\\');
-
-            //Find last back-slash in the path
-            var lastIndex = normalizedPath.LastIndexOf('\\');
-            
-            //Q: Is there is no back-slash? A: return the path itself.
-            if (lastIndex <= 0)
-                return path;
-
-            //Return name after last back-slash
-            return path.Substring(lastIndex + 1);
-        }
-        #endregion
+       
     }
 }
 
